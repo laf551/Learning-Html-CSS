@@ -1,26 +1,33 @@
-.banniere{
+header{
     background-image: url(../images/background.jpg);
     text-align: center;
-    height: 300px;
+    height: 500px;
+    border-bottom: 12px whitesmoke solid;
+     
+    
+    
+    
+}
+
+*{
+    margin : 0; 
     
     
 }
 body{
-    margin:0; 
-    background: rgb(239,239,249);
-    background: linear-gradient(103deg, rgba(239,239,249,1) 0%, rgba(79,175,189,0.01) 17%, rgba(31,105,120,1) 100%);
-    
+    font-size: 1.em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: linear-gradient(103deg, rgba(239,239,249,1) 0%, rgba(79,175,189,0.01) 17%, #BED3C3);
     
 }
-*{
-    
-    font-family:Verdana, Geneva, Tahoma, sans-serif
+#ccueil{
+    background-color: #EBACA2;
 }
-
 .style_menu{
+    margin: 0;
     font-size : 3em; 
     text-decoration: none;
-    color : whitesmoke;
+    
     font-family: 'Nerko One', cursive , serif;
     font-weight: thin;
     
@@ -29,20 +36,97 @@ body{
 .style_menu:hover{
     text-decoration: underline;
     font-size: 4em;
+    /*background-color: #EBACA2; */
+    background-color: #7bc0cb;
+    
     
 }
 
-a em {
+a , a em{
+    text-decoration: none;
+    color : whitesmoke;
+    
     font-style: normal;
     font-family: 'Nerko One', cursive , serif;
 }
-
-header{
-    height : 300px;
+ul {
+    padding: 0;
+}
+#logo{
+     
+    border-radius: 5em;
+    height: 100px;
+    width: 100px;
     background-image: url(../images/Vecto1.PNG);
     background-attachment: local;
     background-size: 7em;
     background-repeat: no-repeat;
-    background-position: 5% 20% ; 
+    background-position:  62% 31%;
     
-}   
+}
+#phrase_du_jour{
+    padding: 6px;
+    color: whitesmoke;
+    font-size: 1.5em;
+    
+    /*border-radius: 40px;*/
+    border-color: whitesmoke;
+   
+    border-style : dotted;
+    
+    /*background-color: rgb(161,93,87,0.5);*/
+    /*background-color: rgba(213, 102, 91, 0.5);*/
+    background-color: #ebaca29c;
+    
+    margin : 15px;
+    
+}
+#msg{
+    text-align: center;
+    width : 75%;  
+    margin: auto ; 
+    font-size: 1.2em;
+}
+.container{
+    width : 50%; 
+    margin : auto; 
+    text-align: center;
+    border: 2px solid black;
+}
+#ar{
+    background-color: red;
+    width: 100px; 
+    height : 50px; 
+    margin : auto; 
+}
+p{
+    
+    text-align: justify;
+    
+}
+section{
+    margin : 25px; 
+    padding: 99px;
+    background-color: #BED3C3;
+}
+footer {
+    padding: 20px;
+    text-align: center;
+    
+    color: whitesmoke;
+    background-color: #4A919E;
+    border-top: 12px whitesmoke solid;
+    height: auto;
+}
+footer strong:hover{
+    opacity: 0.7; 
+}
+h3{
+    font-family: 'Montserrat' , sans-serif;
+    margin-top: 40px;
+}
+
+#humeur li{
+    font-size: 1.1em;
+    color: #6376ab;
+}

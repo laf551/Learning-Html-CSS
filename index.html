@@ -6,36 +6,52 @@
         <link rel="stylesheet" href="css/style.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Nerko+One&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Nerko+One&display=swap" rel="stylesheet">
+
     </head>
     <body>
+        <!--en-tête-->
         <header>
-           
+            <!--menu-->
+            <nav >
+                <ul>
+                    <li id="logo"></li>
+                    <li class="style_menu"> 
+                        <a href="#accueil" >Accueil</a> 
+                    </li>
+                    <li class="style_menu" >
+                        <a href="#humeur" >
+                            <em>Comment sentez-vous aujourd'hui?</em>
+                        </a>
+                    </li>
+                    <li class="style_menu">
+                        <a href="#contact">Contact</a>    
+                     </li>
+                    <li class="style_menu">
+                        <a href="#apropos">A propos </a>   
+                    </li>
+                </ul>
+            </nav>
         </header>
-        <div class="banniere" >
-            <ul >
-                <li id="accueil"> 
-                    <a href="" class="style_menu">Accueil</a> 
-                </li>
-                <li id="humeur">
-                    <a href="" class="style_menu">
-                        <em>Comment sentez-vous aujourd'hui?</em>
-                    </a>
-                </li>
-                <li id="contact">
-                    <a href="" class="style_menu">Contact</a>    
-                 </li>
-                <li id="apropos">
-                    <a href="" class="style_menu">A propos </a>   
-                </li>
-            </ul>
-        </div>
-        <div class="container">
-            <div id="accueil">
-                Bonjour, Aujourd'hui est un nouveau jour :) 
-                Qu'en pensez vous? 
-            </div>
-            <div id="humeur">
+        
+        
+        <!--contenue-->
+        <main class="container">
+            <section id="accueil">
+                <div id="msg">
+                    Bonjour, Aujourd'hui est un nouveau jour :) 
+                    <span> Qu'en pensez vous? </span>
+                </div>
+                <div id="phrase_du_jour">
+                    
+                    « Quand la vie te donne une centaine de raisons de pleurer, montre-lui que tu en as mille de sourires. »
+                </div>
+
+                
+            </section>
+            <section id="humeur" >
                 <ol>
                     
                     <li> Je me sens à merveille</li>
@@ -45,23 +61,48 @@
                     <li> Je suis désésperer </li>
                     <li> Je suis à bout de mes forces</li>
                 </ol>
-            </div>
-            <div id="contact">
+                <div id ="ar">Anihz</div>
+                <div id ="ar">BJioap</div>
+                <p><strong>I am a winner</strong> Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste quod dolor ipsum! Amet laborum ducimus tenetur aliquid, eveniet sunt aspernatur, aliquam libero quod repudiandae asperiores sit, nesciunt accusantium cupiditate vitae?</p>
+            </section>
+            <section id="contact">
                 Voici mes contact 
                 <ul>
                     <li>01 89 90 07 95 </li>
                     <li>Facebook </li>
                     <li>Email </li>
                 </ul>
-            </div>
-            <div id="apropos">
-                Qui sommes nous? Nous sommes là pour partager chaque jour à vos moment le plus difficils à  vos moment fort . 
-                Nous sommes à votre écoute. A votre secours. A votre Soutien. 
-            </div>
-            <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro voluptatum quis quisquam! Libero fuga, voluptates, ad hic voluptate est numquam asperiores earum, repellendus perferendis natus quos placeat! Odit, quo velit?
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum tempora ducimus ipsam! Quia doloribus iusto voluptate quibusdam repudiandae, dicta blanditiis corporis illum aspernatur ipsam nisi praesentium fugit, dolorum fugiat. Neque.
-            </div>
-        </div>
-        <footer>@laf decembre 2022 </footer>
+            </section>
+            <section id="apropos">
+                <p>
+                    Qui sommes nous? Nous sommes là pour partager chaque jour à vos moment le plus difficiles à  vos moment fort . 
+                    Nous sommes à votre écoute. A votre     secours. A votre Soutien. 
+                </p>
+                
+                <h3>Liste des compétences : </h3>
+                <ul>
+                    <li>A l'écoute</li>
+                    <li>De bon conseil :p </li>
+                    <li>Suggestion et appui</li>
+                </ul>
+            </section>
+            <!--Article complémentaire-->
+            <aside>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro voluptatum quis quisquam! Libero fuga, voluptates, ad hic voluptate est numquam asperiores earum, repellendus perferendis natus quos placeat! Odit, quo velit?
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro voluptatum quis quisquam! Libero fuga, voluptates, ad hic voluptate est numquam asperiores earum, repellendus perferendis natus quos placeat! Odit, quo velit?
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro voluptatum quis quisquam! Libero fuga, voluptates, ad hic voluptate est numquam asperiores earum, repellendus perferendis natus quos placeat! Odit, quo velit?
+                </p>
+                
+            </aside>
+            <!--Article indépendant-->
+            <article> https://www.w3schools.com/cssref/pr_background-image.php </article>
+        </main>
+        <!--pieds-->
+        <footer><strong>copyright @laf decembre 2022</strong> </footer>
     </body>
 </html>
