@@ -1,0 +1,48 @@
+.banniere{
+    background-image: url(../images/background.jpg);
+    text-align: center;
+    height: 300px;
+    
+    
+}
+body{
+    margin:0; 
+    background: rgb(239,239,249);
+    background: linear-gradient(103deg, rgba(239,239,249,1) 0%, rgba(79,175,189,0.01) 17%, rgba(31,105,120,1) 100%);
+    
+    
+}
+*{
+    
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+.style_menu{
+    font-size : 3em; 
+    text-decoration: none;
+    color : whitesmoke;
+    font-family: 'Nerko One', cursive , serif;
+    font-weight: thin;
+    
+    
+}
+.style_menu:hover{
+    text-decoration: underline;
+    font-size: 4em;
+    
+}
+
+a em {
+    font-style: normal;
+    font-family: 'Nerko One', cursive , serif;
+}
+
+header{
+    height : 300px;
+    background-image: url(../images/Vecto1.PNG);
+    background-attachment: local;
+    background-size: 7em;
+    background-repeat: no-repeat;
+    background-position: 5% 20% ; 
+    
+}   
